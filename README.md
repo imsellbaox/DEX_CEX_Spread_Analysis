@@ -1,6 +1,6 @@
 # 基于区块链不同Dex的Perpetual价差分析工具
 
-### 用java实现的一套完整的Dex价差分析工具，能收集不同交易所之间的Perpetual价格，进行同一时间（精确到秒）的价格对比，从而获得套利机会。
+### 用java实现的一套完整的Dex价差分析工具，能收集不同交易所之间的Perpetual价格，进行同一时间（精确到秒）的价格对比，从而获得套利机会。利用TDengine数据库、redis、element-ui、Vue、java、vue-echart
 
 
 
