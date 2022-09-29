@@ -27,21 +27,21 @@
                 <el-table-column
                     label="平台对"
                     prop="abdex"
-                    width="240px">
+                   >
                 </el-table-column>
-                <el-table-column
-                    label="价差"
-                >
-                    <e-charts class="chart" :option="options"/>
-                </el-table-column>
+<!--                <el-table-column-->
+<!--                    label="价差"-->
+<!--                >-->
+<!--                    <e-charts class="chart" :option="options"/>-->
+<!--                </el-table-column>-->
                 <el-table-column
                     label="币对"
                     prop="symbol"
                     width="160px"
                 >
                 </el-table-column>
-
             </el-table>
+            <e-charts class="chart" :option="options"/>
         </div>
     </div>
 </template>
@@ -102,7 +102,7 @@ export default {
                 }],
                 // 主要用来控制图表四周留白
                 grid: {
-                    left: '25px',
+                    left: '15%',
                     top: '10%',
                 },
                 // 提示框组件
@@ -391,6 +391,6 @@ export default {
 <style scoped>
 .chart {
     height: 800px;
-    width: 1100px;
+    width: 1500px;
 }
 </style>
